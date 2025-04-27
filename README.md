@@ -1,6 +1,3 @@
-# Schreiben des README-Inhalts in eine .md-Datei
-
-readme_content = """
 # Command & Conquer: Tiberium Alliances - Spieler-Daten-Erhebung Skript
 
 ## Übersicht
