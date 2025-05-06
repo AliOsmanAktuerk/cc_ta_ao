@@ -12,6 +12,7 @@
 
 (function () {
 
+    const baseUrl = `https://your_url`;
     const AoTools = document.createElement("script");
     // script start
     var AoTools_main = function () {
@@ -36,7 +37,7 @@
                         API: {
                             POST: async (data) => {
                                 try {
-                                    const response = await fetch('https://hip-robin-active.ngrok-free.app/api/input', {
+                                    const response = await fetch(`${baseUrl}/api/input`, {
                                         method: 'POST',
                                         headers: {
                                             'Content-Type': 'application/json'
